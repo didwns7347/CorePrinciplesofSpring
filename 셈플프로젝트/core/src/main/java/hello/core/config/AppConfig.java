@@ -11,7 +11,7 @@ import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+// Configuration -> 객체 싱글톤 보장
 @Configuration
 public class AppConfig {
 
